@@ -1,0 +1,10 @@
+[package]
+name = "macro-own"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+resolver="3"
+members = [ "app", "serialize_macro","serialize_macro_traits"]
